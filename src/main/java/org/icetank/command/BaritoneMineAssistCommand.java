@@ -3,6 +3,7 @@ package org.icetank.command;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.zenith.command.api.Command;
+import com.zenith.command.api.CommandCategory;
 import com.zenith.command.api.CommandContext;
 import com.zenith.command.api.CommandUsage;
 import org.icetank.module.BaritoneMineAssist;
@@ -22,6 +23,7 @@ public class BaritoneMineAssistCommand extends Command {
         return CommandUsage.builder()
                 .name("baritoneMineAssist")
                 .description("Commands for Baritone Mine Assist")
+                .category(CommandCategory.MODULE)
                 .usageLines(
                         "baritoneMineAssist on/off - Enable or disable Baritone Mine Assist"
                 )
