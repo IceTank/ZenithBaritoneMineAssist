@@ -12,7 +12,7 @@ import org.icetank.module.BaritoneMineAssist;
     version = BuildConstants.VERSION,
     description = "ZenithProxy Baritone Mine Assist",
     url = "https://github.com/IceTank/ZenithBaritoneMineAssist",
-    authors = {"icetank"},
+    authors = {"IceTank"},
     mcVersions = {BuildConstants.MC_VERSION} // to indicate any MC version: @Plugin(mcVersions = "*")
 )
 public class BaritoneMineAssistPlugin implements ZenithProxyPlugin {
