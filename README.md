@@ -1,8 +1,9 @@
-# ZenithProxy Example Plugin
+# ZenithProxy Baritone Mine Assist
 
 [ZenithProxy](https://github.com/rfresh2/ZenithProxy) is a Minecraft proxy and bot.
 
-This repository is an example core plugin for ZenithProxy, allowing you to add custom modules and commands.
+This repository is a plugin for ZenithProxy that makes baritone mine blocks faster when baritone has to mine blocks
+that are instantly breakable (e.g. netherrack, tuff, etc).
 
 ## Installing Plugins
 
